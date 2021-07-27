@@ -33,3 +33,40 @@ ArrayList Method:
 
 lambda:
 	 		 -> expression
+
+
+Array Utility class: Arrays. designed for Array data structures ONLY
+		
+		toString, equals, sort, asList, deepToString...
+
+
+Collection Utility Class: Collections, designed for collection data structures ONLY
+
+
+	import java.util. Collections;
+
+	Methods:
+		Collections.sort(CollectionType)
+
+		Collections.reverse(CollectionType)
+
+		Collections.swap(CollectionType, index1, index2)
+
+		Collections.replaceAll(CollectionType, old value, new values)
+
+		Collections.frequency(CollectionType, element): returns the frequency of the elements, as int
+
+		Collections.max()
+
+		Collections.min()
+
+
+
+Thursday: custom class
+
+		
+
+
+
+
+
