@@ -20,3 +20,16 @@ Warmup tasks:
 	                arr2 = {"D", "E", "F", "G"};
 	                list ==> {"A", "B", "C", "D", "E", "F", "G"}
 
+
+ArrayList Method:
+	remove(): when we remove one element. DO NOT USE IT INSIDE THE LOOP
+	removeAll(): when we want to remove multiple elements (if the elements we want to remove are known)
+	retainAll(): when we want to retain multiple elements (if the elements we want to remove are known)
+	removeIf(Predicate): when we want to remove the elements under a condition (if the elements we want to remove are unknown)
+
+
+		Predicate<Integer>  name =   p ->  boolean
+										    p < 5
+
+lambda:
+	 		 -> expression
