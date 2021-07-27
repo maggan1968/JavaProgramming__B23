@@ -53,11 +53,22 @@ public class Practice {
 
         words.removeIf( p -> StringUtility.isPalindrome(p) ); //if the string is palindrome, then remove it from the arraylist
 
-        System.out.println( words);
+/*
+        for (int j =0; j <= words.size()-1; j++) {
+            String reverse = "";
+
+            for(int i = words.get(j).length()-1; i >=0; i--){
+                reverse += words.get(j).charAt(i);
+            }
 
 
+            boolean isPalindrome = reverse.equalsIgnoreCase(words.get(j));
+            words.removeIf( p -> isPalindrome );
 
+        }
+*/
 
+        System.out.println(words);
 
 
 
