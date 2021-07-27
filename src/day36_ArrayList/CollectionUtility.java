@@ -77,6 +77,30 @@ public class CollectionUtility {
         System.out.println(result);
 
 
+        int max = Collections.max(list);
+        int min = Collections.min(list);
+
+        System.out.println("max = " + max);
+        System.out.println("min = " + min);
+
+
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.addAll(Arrays.asList(10,10,10, 9, 9, 8, 7, 6,5,4,3,2,1));
+        int firstMax = Collections.max(numbers);
+
+        numbers.removeIf( p ->  p ==  Collections.max(numbers));
+        int secondMax = Collections.max(numbers);
+
+        numbers.removeIf( p ->  p ==  Collections.max(numbers));
+        int thirdMax = Collections.max(numbers);
+
+
+        System.out.println("firstMax = " + firstMax);
+        System.out.println("secondMax = " + secondMax);
+        System.out.println("thirdMax = " + thirdMax);
+
+
+
 
 
 
