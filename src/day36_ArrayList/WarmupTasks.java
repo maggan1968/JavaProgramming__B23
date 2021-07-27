@@ -51,6 +51,16 @@ public class WarmupTasks {
         System.out.println(result);
 
 
+        System.out.println("--------------------------------------");
+        int[] numbers = {1,2,3,4,5,6,7};
+        ArrayList<Integer> list4 = new ArrayList<>();
+       // list4.addAll( Arrays.asList(numbers) );
+
+        for (int each : numbers) {
+            list4.add(each);
+        }
+
+        System.out.println(list4);
 
 
 
