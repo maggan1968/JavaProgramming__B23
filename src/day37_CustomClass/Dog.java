@@ -34,6 +34,14 @@ public class Dog {
          color = dogColor;
     }
 
+    public void getInfo(){
+        System.out.println("name = " + name);
+        System.out.println("breed = " + breed);
+        System.out.println("color = " + color);
+        System.out.println("gender = " + gender);
+        System.out.println("size = " + size);
+        System.out.println("age = " + age);
+    }
 
 
 }
