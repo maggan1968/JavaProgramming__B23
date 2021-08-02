@@ -1,5 +1,8 @@
 package day38_CustomClass.offerTask;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class MJobOffers {
 
     public static void main(String[] args) {
@@ -14,7 +17,7 @@ public class MJobOffers {
         offer1.setInfo("CA", "Los Angles", "SDET", 120000, true, false, false, false);
         offer2.setInfo("TX", "Austin", "Software Developer", 130000, true, true, true, false);
         offer3.setInfo("VA", "McLean", "QA", 110000, true, true, true, true);
-        offer4.setInfo("NA", "Lav Vegas", "Scrum Master", 1250000, false, false, true, false);
+        offer4.setInfo("NV", "Las Vegas", "Scrum Master", 1250000, false, false, true, false);
         offer5.setInfo("NC", "Charlotte", "SDET", 1200000, false, true, true, false);
         offer6.setInfo("WA", "Seattle", "BA", 1350000, true, false, true, true);
         offer7.setInfo("CO", "Denver", "QE", 85000, true, true, true, true);
@@ -22,8 +25,37 @@ public class MJobOffers {
         Offer[] arr ={offer1, offer2, offer3, offer4, offer5, offer6, offer7};
 
         System.out.println("-------------------------------------------------");
+        // add the CA & NA offers
+        ArrayList<Offer> localOffers = new ArrayList<>( Arrays.asList(arr) );
+        localOffers.removeIf( offer ->  ! (offer.state.equals("CA") || offer.state.equals("NV")) );
+        System.out.println(localOffers.size());
 
+        System.out.println(localOffers);
 
+        System.out.println("-----------------------------------------------------");
+        //only keep the offers that are full-time
+        ArrayList<Offer> fullTimeOffers = new ArrayList<>( Arrays.asList(arr) );
+        fullTimeOffers.removeIf( offer -> !offer.isFullTime   );
+        System.out.println(fullTimeOffers.size());
+        System.out.println(fullTimeOffers);
+
+        System.out.println("---------------------------------------------------------");
+        // only keep the offers that are WFH & hasPTO
+        ArrayList<Offer> WFHOffers = new ArrayList<>( );
+
+        for (Offer offer : arr) {
+            if(offer.isWFH && offer.hasPTO){
+                WFHOffers.add(offer);
+            }
+        }
+
+        System.out.println(WFHOffers.size());
+        System.out.println(WFHOffers);
+
+        System.out.println("----------------------------------------------------------");
+        //only keep the offers that has the salary of 125k or more
+        ArrayList<Offer> highSalaryOffers = new ArrayList<>( Arrays.asList(arr));
+        
 
 
     }

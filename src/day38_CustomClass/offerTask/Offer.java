@@ -17,19 +17,19 @@ public class Offer {
         this.isFullTime = isFullTime;
     }
 
+
     public String toString() {
         return "Offer{" +
-                "state='" + state + '\'' +
-                ", city='" + city + '\'' +
-                ", jobTitle='" + jobTitle + '\'' +
-                ", salary=" + salary +
-                ", hasBenefits=" + hasBenefits +
-                ", isWFH=" + isWFH +
-                ", hasPTO=" + hasPTO +
+                "state= '" + state + '\'' +
+                ", city= '" + city + '\'' +
+                ", jobTitle= '" + jobTitle + '\'' +
+                ", salary= $" + salary +
+                ", hasBenefits= " + hasBenefits +
+                ", isWFH= " + isWFH +
+                ", hasPTO= " + hasPTO +
+                ", isFullTime= " + isFullTime +
                 '}';
     }
-
-
 }
 
 /*
