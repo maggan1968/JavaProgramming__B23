@@ -37,4 +37,10 @@ create a custom class named Rectangle
         calculateArea(): calculates the area of the rectangle, returns it as double
         calculatePerimeter() calculates the perimeter of the rectangle, returns it as double
         getInfo(): prints the width, length, area and perimeter of the rectangle
+
+
+
+
+
+
  */
