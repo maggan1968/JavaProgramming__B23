@@ -10,15 +10,24 @@ public class RectangleObjects {
         rectangle1.length = 20;
         */
         rectangle1.setInfo(30, 20);
+       // rectangle1.getInfo();
 
-        rectangle1.getInfo();
+        System.out.println(rectangle1);
+
 
         System.out.println("-----------------------------------------");
         // l:50,  w: 10
         Rectangle rectangle2 = new Rectangle();
         rectangle2.setInfo(50, 10);
 
-        rectangle2.getInfo();
+      //  rectangle2.getInfo();
+
+        System.out.println(rectangle2);
+
+        System.out.println("-------------------------------------------");
+
+
+
 
 
 

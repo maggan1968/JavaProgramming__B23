@@ -17,14 +17,15 @@ public class Rectangle {
         return 2 * (length+width);
     }
 
-    public void getInfo(){
-        System.out.println("width = " + width);
-        System.out.println("length = " + length);
-        System.out.println("Area = " + calculateArea() );
-        System.out.println("Perimeter = " + calculatePerimeter() );
+
+    public String toString() {
+        return "Rectangle{" +
+                "length= " + length +
+                ", width= " + width +
+                ", area= "+calculateArea() +
+                ", perimeter= "+calculatePerimeter()+
+                '}';
     }
-
-
 }
 
 /*
