@@ -11,18 +11,18 @@ public class BankAccount {
         this.accountNumber = accountNumber;
     }
 
-    public void deposit(double amount){
+    public void deposit(double amount){ // -1
         if(amount <= 0){
             System.out.println("Depositing amount can not be negative or zero");
             return;
         }
 
-        System.out.println("Depositing "+amount+" to the account "+ accountNumber);
+        System.out.println("Depositing $"+amount+" to the account "+ accountNumber);
         balance += amount;
     }
 
 
-    
+
 
 
 
