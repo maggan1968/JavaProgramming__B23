@@ -18,13 +18,16 @@ public class Employee {
 
     public String toString() {
         return "Employee{" +
-                "name='" + name + '\'' +
-                ", gender=" + gender +
-                ", ID=" + ID +
-                ", jobTitle='" + jobTitle + '\'' +
-                ", salary=" + salary +
+                "name= '" + name + '\'' +
+                ", gender= " + gender +
+                ", ID= " + ID +
+                ", jobTitle= '" + jobTitle + '\'' +
+                ", salary= $" + salary +
                 '}';
     }
+
+
+
 }
 /*
 Employees:
