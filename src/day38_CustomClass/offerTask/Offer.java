@@ -16,6 +16,17 @@ public class Offer {
         this.hasPTO = hasPTO;
     }
 
+    public String toString() {
+        return "Offer{" +
+                "state='" + state + '\'' +
+                ", city='" + city + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", salary=" + salary +
+                ", hasBenefits=" + hasBenefits +
+                ", isWFH=" + isWFH +
+                ", hasPTO=" + hasPTO +
+                '}';
+    }
 
 
 }
