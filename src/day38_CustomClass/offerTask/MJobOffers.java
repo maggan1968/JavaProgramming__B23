@@ -25,7 +25,7 @@ public class MJobOffers {
         Offer[] arr ={offer1, offer2, offer3, offer4, offer5, offer6, offer7};
 
         System.out.println("-------------------------------------------------");
-        // add the CA & NA offers
+        // add the CA & NV offers
         ArrayList<Offer> localOffers = new ArrayList<>( Arrays.asList(arr) );
         localOffers.removeIf( offer ->  ! (offer.state.equals("CA") || offer.state.equals("NV")) );
         System.out.println(localOffers.size());
@@ -53,9 +53,14 @@ public class MJobOffers {
         System.out.println(WFHOffers);
 
         System.out.println("----------------------------------------------------------");
+
         //only keep the offers that has the salary of 125k or more
         ArrayList<Offer> highSalaryOffers = new ArrayList<>( Arrays.asList(arr));
-        
+        highSalaryOffers.removeIf( offer -> offer.salary < 125000 );
+
+        System.out.println(highSalaryOffers.size());
+        System.out.println(highSalaryOffers);
+
 
 
     }
