@@ -1,5 +1,6 @@
 package day38_CustomClass.pizzaTask;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class PizzaOrder {
@@ -36,9 +37,10 @@ public class PizzaOrder {
         for (Pizza pizza : pizzas) {
             totalPrice += pizza.calcCost();
         }
-        System.out.println("totalPrice = " + totalPrice);
 
+        DecimalFormat df = new DecimalFormat("0.00");
 
+        System.out.println("totalPrice = " +  df.format(totalPrice) );
 
 
     }

@@ -2,7 +2,7 @@
 Topics: Class & Object (instance)
 		this keyword
 		toString methods
-		Multi-classes (in one file)
+		
 
 package name: day38_CustomClass
 
