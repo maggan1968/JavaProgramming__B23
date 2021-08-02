@@ -35,7 +35,7 @@ Task:
 
 	Offer:
 	    Attributes:
-	        Location, hasBenifit(boolean), salary, WFH(boolean), JobTitle
+	       state, hasBenifit(boolean), salary, WFH(boolean), JobTitle
 
 	    Actions:
 	        SetInfo, toString

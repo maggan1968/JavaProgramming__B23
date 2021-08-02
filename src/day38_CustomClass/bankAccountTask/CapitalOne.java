@@ -1,4 +1,6 @@
-package day38_CustomClass;
+package day38_CustomClass.bankAccountTask;
+
+import day38_CustomClass.bankAccountTask.BankAccount;
 
 public class CapitalOne {
 
