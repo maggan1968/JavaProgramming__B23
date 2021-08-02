@@ -18,8 +18,15 @@ public class CapitalOne {
         account1.deposit(100000);
         account1.checkBalance();
 
+        System.out.println("---------------------------------------------");
 
+        BankAccount account2 = new BankAccount();
+        account2.setInfo("Ahmad", 789456123);
 
+        account2.deposit(100000);
+
+        account1.checkBalance();
+        account2.checkBalance();
 
     }
 
