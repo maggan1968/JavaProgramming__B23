@@ -33,10 +33,23 @@ warmup tasks:
                     toString(): displays the radius, diameter, perimeter and area of the circle object
 
 
-static vs instance:
+
+instance: belong to the object
+		each object has its own copy of the instances (can have multiple copies)
+
+static: belongs to the class.
+		There is only one copy os statics thta's shared by all objects of the class
 		
 
 
+CybertekStudent ==> 100 CybertekStudents 
+	instance: name, age, gender
+	static: schoolName ="Cybertek School", 
+
+
+iPhone
+	instance: model, color, price, memorySize
+	static: brand, operatingSystem, madeIn, designated,  touchScreen, hasCamera, hasFaceTime
 
 
 
@@ -47,8 +60,6 @@ static vs instance:
 
 
 
-
-		
 
 
 

@@ -106,6 +106,15 @@ public class CybertekSchool {
         }
 
 
+        System.out.println("---------------------------------------------------");
+
+        for (Student[] group : groups) {
+            for (Student student : group) {
+                System.out.println(student.name);
+            }
+        }
+
+
 
 
     }
