@@ -6,23 +6,21 @@ import java.util.ArrayList;
 public class CybertekSchool {
 
     public static void main(String[] args) {
-        Student[] group1 = {
+        Student[] group1 = { // Tamara
                 new Student(), new Student(), new Student(), new Student(), new Student(),
                 new Student(),new Student(),new Student(),new Student(), new Student()
         };
         group1[0].setInfo("John", 'M', LocalDate.of(1990,2, 25), 11, 'B');
 
 
-
-
-        Student[] group2 = {
+        Student[] group2 = { // Feruza
                 new Student(), new Student(), new Student(), new Student(), new Student(),
                 new Student(),new Student(),new Student(),new Student(), new Student(),
                 new Student()
         };
       //  group2[0].setInfo();
 
-        Student[] group3 = {
+        Student[] group3 = { // Oz Stark
                 new Student(), new Student(), new Student(), new Student(), new Student(),
                 new Student(),new Student(),new Student(),new Student(), new Student(),
                 new Student(), new Student()
