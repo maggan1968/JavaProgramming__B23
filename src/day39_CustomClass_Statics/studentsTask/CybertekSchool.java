@@ -57,13 +57,34 @@ public class CybertekSchool {
         System.out.println("----------------------------------------------------------------");
 
         Student[][] groups = { group1, group2, group3};
+                            //  0         1       2
 
-        ArrayList<Student> earlyBirds = new ArrayList<>(); // grade MUST be A
-        ArrayList<Student> avengers = new ArrayList<>();
+        ArrayList<Student> firstMarketGroup = new ArrayList<>(); // grade MUST be A
+        ArrayList<Student> secondMarketGroup = new ArrayList<>(); // grade must be B
+        ArrayList<Student> thirdMarketGroup = new ArrayList<>();
+
+        for(Student[]  eachGroup  : groups ){
+            for(Student eachStudent : eachGroup ){
+                if(eachStudent.grade == 'A'){
+                    firstMarketGroup.add(eachStudent);
+                }else if(eachStudent.grade == 'B'){
+                    secondMarketGroup.add(eachStudent);
+                }else{
+                    thirdMarketGroup.add(eachStudent);
+                }
+            }
+        }
+
+        System.out.println("Market group1: "+ firstMarketGroup.size());
+        System.out.println("market group2: "+ secondMarketGroup.size());
+        System.out.println("market group3: "+ thirdMarketGroup.size());
 
 
-        // who is the youngest earlyBird
-        // who is the youngest avenger
+        // who is the youngest student in firstMarketGroup
+        LocalDate min = firstMarketGroup.get(0).DoB;
+
+
+
         // display the name of the students who were born between 1985-Jan-20 to 1995-Aug- 15
 
 
