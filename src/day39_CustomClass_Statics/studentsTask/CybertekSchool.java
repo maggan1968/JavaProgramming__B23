@@ -82,10 +82,28 @@ public class CybertekSchool {
 
         // who is the youngest student in firstMarketGroup
         LocalDate min = firstMarketGroup.get(0).DoB;
+        String name = "";
+        for (Student student : firstMarketGroup) {
+            if(student.DoB.isAfter(min) ){
+                min = student.DoB;
+                name = student.name;
+            }
+        }
 
+        System.out.println(min);
+        System.out.println(name);
 
-
+        System.out.println("-----------------------------------------------------------------");
         // display the name of the students who were born between 1985-Jan-20 to 1995-Aug- 15
+
+        for (Student[] group : groups) {
+            for (Student student : group) {
+                if( student.DoB.isAfter(LocalDate.of(1985,1,20)) && student.DoB.isBefore(LocalDate.of(1995,8,15))   ){
+                    System.out.println(student.name +" : "+ student.DoB);
+                }
+
+            }
+        }
 
 
 
