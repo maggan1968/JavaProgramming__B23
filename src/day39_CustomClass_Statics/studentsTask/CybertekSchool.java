@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class CybertekSchool {
 
     public static void main(String[] args) {
-        Student[] group1 = { // Tamara
+        Student[] group1 = {
                 new Student(), new Student(), new Student(), new Student(), new Student(),
                 new Student(),new Student(),new Student(),new Student(), new Student(), new Student()
         };
@@ -22,7 +22,7 @@ public class CybertekSchool {
         group1[9].setInfo( "Mehnmut", 'M',LocalDate.of(1990,1,1), 18, 'A');
         group1[10].setInfo( "Rishat", 'M', LocalDate.of(1980,7,7), 19, 'A');
 
-        Student[] group2 = { // Feruza
+        Student[] group2 = {
                 new Student(), new Student(), new Student(), new Student(), new Student(),
                 new Student(),new Student(),new Student(),new Student(), new Student(), new Student()
         };
@@ -38,7 +38,7 @@ public class CybertekSchool {
         group2[9].setInfo("Ateequllah Saraabi",'M',LocalDate.of(1991,11,12),1247,'A');
         group2[10].setInfo("Alshaun Rodgers",'M',LocalDate.of(1987,12,5),1128,'A');
 
-        Student[] group3 = { // Oz Stark
+        Student[] group3 = {
                 new Student(), new Student(), new Student(), new Student(), new Student(),
                 new Student(),new Student(),new Student(),new Student(), new Student(), new Student()
         };
