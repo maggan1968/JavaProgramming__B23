@@ -1,5 +1,6 @@
 package day39_CustomClass_Statics.studentsTask;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class CybertekSchool {
@@ -9,7 +10,10 @@ public class CybertekSchool {
                 new Student(), new Student(), new Student(), new Student(), new Student(),
                 new Student(),new Student(),new Student(),new Student(), new Student()
         };
-      //  group1[0].setInfo();
+        group1[0].setInfo("John", 'M', LocalDate.of(1990,2, 25), 11, 'B');
+
+
+
 
         Student[] group2 = {
                 new Student(), new Student(), new Student(), new Student(), new Student(),
