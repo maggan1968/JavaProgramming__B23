@@ -10,8 +10,8 @@ public class CybertekSchool {
                 new Student(), new Student(), new Student(), new Student(), new Student(),
                 new Student(),new Student(),new Student(),new Student(), new Student(), new Student()
         };
-        group1[0].setInfo( "Tamara", 'F', LocalDate.of(1988,6,17), 10, 'A');
-        group1[1].setInfo("Ibrahim", 'M', LocalDate.of(1991,6,20), 11, 'A');
+        group1[0].setInfo( "Tamara", 'F', LocalDate.of(1988,6,17), 20, 'A');
+        group1[1].setInfo("Ibrahim", 'M', LocalDate.of(1991,6,20), 21, 'A');
         group1[2].setInfo("Ismail", 'M', LocalDate.of(1993,8,16), 12, 'A');
         group1[3].setInfo("Selda", 'F',LocalDate.of(1988,10,5), 20, 'A');
         group1[4].setInfo( "Shtefan", 'M', LocalDate.of(1993,2,2), 13, 'A');
@@ -54,7 +54,7 @@ public class CybertekSchool {
         group3[9].setInfo("Muhammet Sengez",'M', LocalDate.of(1984,1,1),10,'D');
         group3[10].setInfo("Vusal Rahimli",'M', LocalDate.of(1992,12,11),11,'D');
 
-        System.out.println("-------------------------------------------");
+        System.out.println("----------------------------------------------------------------");
 
         Student[][] groups = { group1, group2, group3};
 
