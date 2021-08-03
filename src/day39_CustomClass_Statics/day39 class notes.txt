@@ -1,7 +1,7 @@
 08/02/2021
 Topics: Class & Objects
 		static members: variables & methods
-		Multi-classes (in one file)
+		
 
 package name: day39_CustomClass_Statics
 
@@ -33,7 +33,22 @@ warmup tasks:
                     toString(): displays the radius, diameter, perimeter and area of the circle object
 
 
+static vs instance:
+		
 
+
+
+
+
+
+
+
+
+
+
+
+
+		
 
 
 
