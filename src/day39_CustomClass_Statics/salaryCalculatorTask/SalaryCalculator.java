@@ -32,6 +32,7 @@ public class SalaryCalculator {
         return salary() - stateTax() - federalTax();
     }
 
+
     public String toString() {
         DecimalFormat df = new DecimalFormat("0.0");
         return "SalaryCalculator{" +
