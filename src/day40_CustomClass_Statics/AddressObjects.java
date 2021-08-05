@@ -8,6 +8,11 @@ public class AddressObjects {
         Address address = new Address();
         Scanner scan = new Scanner(System.in);
 
+        System.out.println(address.country);
+        System.out.println(address.planetName); // static needs to be called through class name, not through the object
+        System.out.println(Address.country); // legal way
+        System.out.println(Address.planetName);
+
         System.out.println("Enter your building number");
         String building = scan.next(); //7925
 
