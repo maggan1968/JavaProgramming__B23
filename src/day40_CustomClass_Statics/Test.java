@@ -9,6 +9,13 @@ public class Test {
 
         System.out.println( StaticBlocks.list );
 
+        System.out.println("---------------------------------------");
+
+        ExecutionOfStaticBlock.method1();
+        ExecutionOfStaticBlock.method1();
+        ExecutionOfStaticBlock.method1();
+
+
 
     }
 

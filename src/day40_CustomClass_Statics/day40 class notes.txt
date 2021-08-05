@@ -50,6 +50,9 @@ package name: day40_CustomClass_Statics
 
 
 
+static initializer block: runs first before anything, only runs one time
+			
+			
 
 
 
