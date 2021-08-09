@@ -28,10 +28,10 @@ public class Address {
     }
 */
 
-
     public String toString() {
         return buildingNumber+" "+street+"\n"+city+" "+state+", "+zipCode;
     }
+
 }
 
 /*

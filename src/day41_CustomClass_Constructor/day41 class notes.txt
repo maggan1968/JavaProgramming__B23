@@ -16,6 +16,34 @@ static import vs regular import
 		 import static PackageName.className.*;
 
 
+regular methods: function
+	
+	Access-Modifier   Specifier  Return-Type  methodName(Parameter){
+
+	}
+
+
+Constructors: Special method. every class MUST have constructor
+			used for creating the objects of the class
+
+
+	Access-Modifier className(Parameter){
+
+
+	}
+
+
+
+
+
+object:
+	new ExistingConstructor
+
+	Dog:
+		new Dog()
+
+
+
 for this week:
 	Constructors
 	Garbage collections
