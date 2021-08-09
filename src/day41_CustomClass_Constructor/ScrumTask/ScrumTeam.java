@@ -41,9 +41,17 @@ public class ScrumTeam {
         testers.removeIf(tester -> tester.id == id );
     }
 
+    public void hireDeveloper(Developer developer){
+        developers.add(developer);
+    }
 
+    public void hireDeveloper(Developer[] developers){
+        this.developers.addAll(Arrays.asList(developers));
+    }
 
-
+    public void removeDeveloper(int id){
+        developers.removeIf( developer -> developer.id ==id );
+    }
 
 
 }
