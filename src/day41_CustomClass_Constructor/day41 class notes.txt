@@ -34,7 +34,7 @@ Constructors: Special method. every class MUST have constructor
 
 
 
-come back at 2:15pm
+class & objects:
 
 
 

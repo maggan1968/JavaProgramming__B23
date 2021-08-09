@@ -26,11 +26,11 @@ public class Tester {
 
     public String toString() {
         return "Tester{" +
-                "name='" + name + '\'' +
-                ", gender=" + gender +
-                ", jobTitle='" + jobTitle + '\'' +
-                ", id=" + id +
-                ", salary=" + salary +
+                "name= '" + name + '\'' +
+                ", gender= " + gender +
+                ", jobTitle= '" + jobTitle + '\'' +
+                ", id= " + id +
+                ", salary= $" + salary +
                 '}';
     }
 
