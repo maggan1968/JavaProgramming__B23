@@ -61,7 +61,7 @@ public class BankOfAmerica {
         2. total Number of testers in Bank of America
         3. total number of developers in Bank of America
         4. what's the max & min salaries of the tester
-        5. what's the max & min salaries of the developers
+        5. what's the max & min salaries of the developer
     */
 
 

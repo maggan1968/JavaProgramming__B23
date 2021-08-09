@@ -26,18 +26,13 @@ regular methods: function
 Constructors: Special method. every class MUST have constructor
 			used for creating the objects of the class
 
+			execution o constructor depends on the object
 
-	Access-Modifier className(Parameter){
-
-
-	}
-
+			syntax:
+				Access-Modifier className(Parameter){
 
 
-class & objects:
-
-
-
+				}
 
 
 
