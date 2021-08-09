@@ -5,9 +5,20 @@ Topics: static import
 Package name: day41_CustomClass_Constructor
 
 
+static import vs regular import
+	
+	regular import:imports everything from the class
+		import PackageName.className;
+		import PackageName.*;
+
+	static import: used for importing static members of the class ONLY
+		 import static PackageName.className.staticMember;
+		 import static PackageName.className.*;
+
 
 for this week:
 	Constructors
 	Garbage collections
 	OOP Encapsulation
+
 
