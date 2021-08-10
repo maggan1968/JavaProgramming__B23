@@ -100,10 +100,23 @@ Come back at 2:15pm and work on the tasks above, class will start at 2:30 pm
 
 
 
+class & Objects:
+	instances:
+		instance variables, methods
+		toString
+		this keyword
+		constructor
+
+	static:
+		static variables
+		static methods
+		static block
+		static import
 
 
 
-
+OOP: Encapsulation
+Access modifiers: public, private, default
 
 
 
