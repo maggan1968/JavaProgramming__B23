@@ -1,0 +1,49 @@
+08/10/2021
+Topics: Constructor Call ( this() )
+		Garbage Collection
+		Review
+
+Package name: day42_CustomClass_Constructors
+
+warmup tasks:
+	1. Create a class called Item
+			Variables:
+				name, untiPrice, quantity
+
+			Add a constructor to initialize all the fields
+
+			Methods:
+				calcCost(): returns the total price of the Item
+				toString()
+
+	2. Create a class called Dog
+			Variables:
+				breed, size, gender, age, color, numberOfLegs, numberOfEyes, numberOfWings
+
+			Add a constructor to initialized all the fields
+			Add a static block to initialize all the statics
+
+			Methods:
+				toString()
+
+	3. create a class named CybertekStudent
+			Variables:
+				name, gender, age, schoolName, fieldOfStudy, programmingLanguage
+
+			Add a constructor to initialize all the fields
+			Add a static block to initialize all the statics
+
+			methods:
+				attendClass():
+				replit()
+				toString()
+
+
+
+
+
+
+
+
+
+
