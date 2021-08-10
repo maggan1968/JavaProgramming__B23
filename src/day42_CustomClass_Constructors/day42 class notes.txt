@@ -42,6 +42,12 @@ warmup tasks:
 
 
 
+this: refers to the object instances
+	this. : to call instance variable & instane method
+	this(): used for calling the constructor
+
+
+constructor class:
 
 
 
