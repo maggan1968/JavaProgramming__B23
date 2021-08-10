@@ -1,6 +1,8 @@
 package day42_CustomClass_Constructors.capitalOneTask;
 
-import day41_CustomClass_Constructor.ScrumTask.ScrumTeam;
+import day41_CustomClass_Constructor.scrumTask.Developer;
+import day41_CustomClass_Constructor.scrumTask.ScrumTeam;
+import day41_CustomClass_Constructor.scrumTask.Tester;
 
 public class CapitalOne {
 
@@ -24,6 +26,25 @@ public class CapitalOne {
         System.out.println("----------------------------------------");
 
         ScrumTeam[] scrums = {scrumTeam1, scrumTeam2, scrumTeam3};
+
+       // Task1: total budget
+
+        double budget = 0;
+        for(ScrumTeam eachScrumTeam : scrums){ // Iterating each scrum team
+
+            for(Tester eachTester  : eachScrumTeam.testers){ // iterates each tester from each scrum team
+                budget += eachTester.salary;
+            }
+
+            for(Developer eachDeveloper  : eachScrumTeam.developers ){ // iterates each developer from each scrum team
+                budget += eachDeveloper.salary;
+            }
+
+        }
+
+        System.out.println("budget = " + budget);
+
+
 
 
 
