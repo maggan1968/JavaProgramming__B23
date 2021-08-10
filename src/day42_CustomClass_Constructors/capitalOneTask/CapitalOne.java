@@ -59,11 +59,12 @@ public class CapitalOne {
         System.out.println("-------------------------------------------------------");
         double maxSalaryOfTester = 0 ;//scrums[0].testers.get(0).salary;
         double minSalaryOfTester = Double.MAX_VALUE;
-        String t1 ="", t2 = "";
+        double maxSalaryOfDeveloper = 0;
+        double minSalaryOfDeveloper = Double.MAX_VALUE;
+        String t1 ="", t2 = "", d1 ="", d2 ="";
 
         for (ScrumTeam eachScrumTeam : scrums) {
             for (Tester eachTester : eachScrumTeam.testers) { // iterates each tester
-               // maxSalaryOfTester = Math.max(eachTester.salary , maxSalaryOfTester);
                 if(eachTester.salary > maxSalaryOfTester){
                     maxSalaryOfTester = eachTester.salary;
                     t1 = eachTester.name;
@@ -75,12 +76,27 @@ public class CapitalOne {
                 }
             }
 
+            for(Developer eachDeveloper : eachScrumTeam.developers) { //iterates each developer
+                if(eachDeveloper.salary > maxSalaryOfDeveloper){
+                    maxSalaryOfDeveloper = eachDeveloper.salary;
+                    d1 = eachDeveloper.name;
+                }
+
+                if(eachDeveloper.salary < minSalaryOfDeveloper){
+                    minSalaryOfDeveloper = eachDeveloper.salary;
+                    d2 = eachDeveloper.name;
+                }
+
+            }
 
         }
 
 
-        System.out.println("maxSalaryOfTester = " + maxSalaryOfTester +" ====>"+t1);
-        System.out.println("minSalaryOfTester = " + minSalaryOfTester +" ====>" +t2);
+        System.out.println("maxSalaryOfTester = " + maxSalaryOfTester +" ====> "+t1);
+        System.out.println("minSalaryOfTester = " + minSalaryOfTester +" ====> " +t2);
+
+        System.out.println("maxSalaryOfDeveloper = " + maxSalaryOfDeveloper +" ====> "+d1);
+        System.out.println("minSalaryOfDeveloper = " + minSalaryOfDeveloper +" ====> "+d2);
 
 
 
