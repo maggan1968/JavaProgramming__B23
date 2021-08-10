@@ -120,6 +120,31 @@ Access modifiers: public, private, default
 
 
 
+Garbage Collection: Collection of garbage objects (unreferenced object)
+
+	unreferenced object:
+			1. re-assigning
+					 		String str= "Java";
+					 				str	="Python" // object "Java" becomes unreferenced
+
+					 				sout(str); 
+
+			2. assigninng null:
+						String str = "Java";
+								str = null;
+
+
+Garbage collector: responsible for collecting unreferenced object from java heap. and destroys it ( finalize() )
+
+
+
+
+
+
+
+
+
+
 
 
 
