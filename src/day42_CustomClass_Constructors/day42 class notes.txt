@@ -18,7 +18,8 @@ warmup tasks:
 
 	2. Create a class called Dog
 			Variables:
-				breed, size, gender, age, color, numberOfLegs, numberOfEyes, numberOfWings
+				instance: breed, size, gender, age, color
+				static: numberOfLegs, numberOfEyes, numberOfWings
 
 			Add a constructor to initialized all the fields
 			Add a static block to initialize all the statics
@@ -28,7 +29,8 @@ warmup tasks:
 
 	3. create a class named CybertekStudent
 			Variables:
-				name, gender, age, schoolName, fieldOfStudy, programmingLanguage
+				instance: name, age, gender,
+				static: schoolName,fieldOfStudy, programmingLanguage
 
 			Add a constructor to initialize all the fields
 			Add a static block to initialize all the statics
