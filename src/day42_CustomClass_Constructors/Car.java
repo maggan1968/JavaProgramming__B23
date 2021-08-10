@@ -3,7 +3,6 @@ package day42_CustomClass_Constructors;
 public class Car {
 
 
-
     public String make, model;
     public int year;
     public double price;
