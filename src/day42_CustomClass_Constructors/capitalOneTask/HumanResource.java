@@ -18,7 +18,7 @@ public class HumanResource {
         testersTeam2 = new Tester[]{
                 new Tester("Feruza", 'F', "SDET", 17, 125000),
                 new Tester("Ahmet", 'M', "QA", 18, 109000),
-                new Tester("Muhtar", 'M', "SDET", 19, 135000),
+                new Tester("Merve", 'M', "SDET", 19, 135000),
                 new Tester("Ismail", 'M', "QA", 20, 111000)
         };
 

@@ -44,6 +44,45 @@ public class CapitalOne {
 
         System.out.println("budget = " + budget);
 
+        System.out.println("--------------------------------------------------");
+            int totalNumberOfTesters =0,
+                totalNumberOfDevelopers = 0;
+
+            for(ScrumTeam eachScrumTeam: scrums ){
+                totalNumberOfTesters += eachScrumTeam.testers.size();
+                totalNumberOfDevelopers += eachScrumTeam.developers.size();
+            }
+
+        System.out.println("totalNumberOfTesters = " + totalNumberOfTesters);
+        System.out.println("totalNumberOfDevelopers = " + totalNumberOfDevelopers);
+
+        System.out.println("-------------------------------------------------------");
+        double maxSalaryOfTester = 0 ;//scrums[0].testers.get(0).salary;
+        double minSalaryOfTester = Double.MAX_VALUE;
+        String t1 ="", t2 = "";
+
+        for (ScrumTeam eachScrumTeam : scrums) {
+            for (Tester eachTester : eachScrumTeam.testers) { // iterates each tester
+               // maxSalaryOfTester = Math.max(eachTester.salary , maxSalaryOfTester);
+                if(eachTester.salary > maxSalaryOfTester){
+                    maxSalaryOfTester = eachTester.salary;
+                    t1 = eachTester.name;
+                }
+
+                if(eachTester.salary < minSalaryOfTester){
+                    minSalaryOfTester = eachTester.salary;
+                    t2 = eachTester.name;
+                }
+            }
+
+
+        }
+
+
+        System.out.println("maxSalaryOfTester = " + maxSalaryOfTester +" ====>"+t1);
+        System.out.println("minSalaryOfTester = " + minSalaryOfTester +" ====>" +t2);
+
+
 
 
 
