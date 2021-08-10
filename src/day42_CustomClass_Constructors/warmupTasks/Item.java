@@ -1,7 +1,6 @@
 package day42_CustomClass_Constructors.warmupTasks;
 
 public class Item {
-
     public String name;
     public double unitPrice;
     public int quantity;
