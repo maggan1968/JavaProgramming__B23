@@ -17,7 +17,13 @@ public class CapitalOne {
         scrumTeam3.hireTester(HumanResource.testersTeam3);
         scrumTeam3.hireDeveloper(HumanResource.devopsTeam3);
 
+        System.out.println(scrumTeam1);
+        System.out.println(scrumTeam2);
+        System.out.println(scrumTeam3);
 
+        System.out.println("----------------------------------------");
+
+        ScrumTeam[] scrums = {scrumTeam1, scrumTeam2, scrumTeam3};
 
 
 

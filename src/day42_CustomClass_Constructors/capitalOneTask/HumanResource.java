@@ -29,6 +29,7 @@ public class HumanResource {
 
     }
 
+
     static{
         devopsTeam1 = new Developer[]{
                 new Developer("Zorana", 'F', "Software Developer", 13, 125000),
