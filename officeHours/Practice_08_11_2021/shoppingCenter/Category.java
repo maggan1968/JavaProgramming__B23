@@ -22,11 +22,36 @@ public class Category {
     }
 
 
+
+
     public void addProduct(Product product){
+
+        for (Product p : products) {  // refers each product of arrayList
+            if(p.name.equals(product.name)){
+                if(p.price==product.price){
+                    p.quantity+=product.quantity;
+                    System.out.println(product.name+" is already exist");
+                    System.out.println("Quantity is increaased by "+ product.quantity);
+                }
+                else
+                {
+                    System.out.println(product.name+ " is already exist");
+                    System.out.println("check "+ product.name+" price");
+                }
+                return;
+            }
+        }
+
+        products.add(product);
+        System.out.println(product.name+" is added");
 
     }
 
     public void addProduct(ArrayList<Product> product){
+
+        for (Product p : product) { // refers each product
+            addProduct(p);
+        }
 
     }
 
