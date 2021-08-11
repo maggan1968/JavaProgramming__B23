@@ -58,6 +58,46 @@ public class ShoppingCenter {
 
 
 
+        /*
+
+
+        // SELL ONE PRODUCT FROM ELECTRONICS
+        System.out.println("==========SELL ONE PRODUCT FROM ELECTRONICS===========");
+        catElectronics.sellProduct(new Product("HeadPhone",14,200));
+        System.out.println("electronics = " + catElectronics);
+        System.out.println("Category.totalEarning = " + Category.totalEarning);
+
+
+        // SELL ONE PRODUCT FROM ELECTRONICS OUT OF STOCK
+        System.out.println("==========SELL ONE PRODUCT FROM ELECTRONICS OUT OF STOCK===========");
+        catElectronics.sellProduct(new Product("Watch",14,200));
+        System.out.println("electronics = " + catElectronics);
+        System.out.println("Category.totalEarning = " + Category.totalEarning);
+
+        // SELL ONE PRODUCT FROM ELECTRONICS
+        System.out.println("==========SELL ONE PRODUCT FROM ELECTRONICS===========");
+        catElectronics.sellProduct(new Product("HeadPhone",15,200));
+        System.out.println("electronics = " + catElectronics);
+        System.out.println("Category.totalEarning = " + Category.totalEarning);
+
+        // SELL ONE PRODUCT FROM ELECTRONICS
+        System.out.println("==========SELL ONE PRODUCT FROM ELECTRONICS===========");
+        catElectronics.sellProduct(new Product("HeadPhone",14,200));
+        System.out.println("electronics = " + catElectronics);
+        System.out.println("Category.totalEarning = " + Category.totalEarning);
+
+        // SELL PRODUCTS FROM ELECTRONICS
+        System.out.println("==========SELL PRODUCTS FROM ELECTRONICS===========");
+        ArrayList<Product> sellElectronics=new ArrayList<Product>();
+        sellElectronics.addAll(Arrays.asList(new Product("HeadPhone",14,150),
+                new Product("HeadPhone",14,150),
+                new Product("HeadPhone",14,155),
+                new Product("Battery",10,5)))  ;
+        catElectronics.sellProduct(sellElectronics);
+        System.out.println("electronics = " + catElectronics);
+        System.out.println("Category.totalEarning = " + Category.totalEarning);
+         */
+
 
 
     }

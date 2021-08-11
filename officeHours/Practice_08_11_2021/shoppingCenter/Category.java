@@ -54,14 +54,36 @@ public class Category {
         }
 
     }
-
+    /*
     public void sellProduct(Product product){
+
+        for (Product p : products) {
+            if (p.name.equals(product.name)) {
+                if (p.quantity >= product.quantity) {
+                    p.quantity-= product.quantity;
+                    totalEarning+= product.quantity* product.price;
+                    System.out.println(product.name+" quantity is decreased by "+ product.quantity);
+
+                } else {
+                    System.out.println(product.name+" quantity is not enough to sell");
+                }
+                return;
+            }
+        }
+        System.out.println(product.name+ " does not exist");
+
 
     }
 
     public void sellProduct(ArrayList<Product> product){
 
+        for (Product p : product) {
+            sellProduct(p);
+        }
+
     }
+    */
+
 
     public String toString() {
         return "Category{" +
