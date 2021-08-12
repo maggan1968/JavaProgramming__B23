@@ -20,8 +20,7 @@ public class Circle {
             return;
         }
         this.radius  =radius; // r= 3
-       setDiameter(radius * 2);
-                    //10
+        diameter = radius * 2;
     }
 
     public void setDiameter(double diameter){
@@ -30,7 +29,7 @@ public class Circle {
             return;
         }
         this.diameter = diameter;
-        setRadius(diameter/2);
+        radius = diameter/2;
     }
 
 
