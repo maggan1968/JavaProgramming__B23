@@ -4,6 +4,11 @@ public class Rectangle {
 
     private double length, width;
 
+    public Rectangle(double length, double width) {
+        setLength(length);
+        setWidth(width);
+    }
+
     public double getLength() {
         return length;
     }
@@ -44,4 +49,6 @@ public class Rectangle {
                 ", width=" + width +
                 '}';
     }
+
+
 }
