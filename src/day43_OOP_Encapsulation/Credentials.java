@@ -5,8 +5,8 @@ public class Credentials {
     private String username, password;
 
     public Credentials(String username, String password) {
-       setUsername(username);
-       setPassword(password);
+       setUsername(username); // only sets the username if username starts with a letter and username at least is 5 characters long
+       setPassword(password); // only sets the password, if the password is strong password
     }
 
     public String getUsername() {
