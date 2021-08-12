@@ -12,7 +12,7 @@ public class CheckOut {
         items.addAll(Arrays.asList(
                 item1, item2, item3, item4, item5
         ));
-        
+
         /*
         for(int i =0; i <= items.size()-1; i++){
             Item eachItem = items.get(i);
