@@ -13,11 +13,30 @@ public class Credentials {
     }
 
     public void setUsername(String username) {
+        boolean startsWithLetter = Character.isLetter(username.charAt(0));
+        if(!startsWithLetter){ // if first character of the user name is not a letter
+            return; // exit the method
+        }
+
+        if( username.length() < 5){ // if length of the username is less than 5
+            return; // exit
+        }
+
         this.username = username;
     }
 
     public void setPassword(String password) {
+        if(!isStrongPassword(password)){ // if the given password is not a strong password
+            return; // exit the method
+        }
         this.password = password;
+    }
+
+    public String toString() {
+        return "Credentials{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 
     public static boolean isStrongPassword(String password){
