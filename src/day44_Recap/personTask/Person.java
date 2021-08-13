@@ -63,6 +63,9 @@ public class Person {
     }
 
     public void setGender(char gender){
+        if( !(gender == 'M' || gender == 'F') ){ // if the gender is not male or female
+            return; // exit
+        }
         this.gender = gender;
     }
 
@@ -77,7 +80,6 @@ public class Person {
     public void sleep(){
         System.out.println(name+" is sleeping");
     }
-
 
     public String toString() {
         DateTimeFormatter df = DateTimeFormatter.ofPattern("MMM/dd/YYYY");
