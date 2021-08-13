@@ -9,11 +9,13 @@ packageName: day44_Recap
 PersonTask:
     private variables:
         name (String)
-        gender (char and constant)
+        gender (char)
         age (int)
         dateOfBirth (LocalDate & constant)
         countryOfBirth (String & constant)
         language (String & constant)
+
+    public variables:
         isHuman (static boolean & constant)
         planet (static boolean & constant)
 
@@ -25,3 +27,49 @@ PersonTask:
 
      Extra methods:
          eat(), sleep(), drink(), toString()
+
+
+Class & Object: 
+	instances: multiple copies
+		instance variables & instance methods
+		constructor
+		toString()
+		this (this. & this())
+
+	statics: one copy ONLY
+		static variables & static methods
+		static block
+		static import
+
+
+Access modifiers:
+	public > protected > default > private
+
+	within the class: public, protected, default, private
+	within the package: public, protected, dfeault
+	outside package: public (Always), protected (sometimes/subclass)
+
+
+Encapsulation: Data Hiding (private)
+		
+		getter (read only)
+		setter (write only)
+
+		if the data is final, we can only generate getter
+				
+using the data:
+		read
+		modify
+
+
+final keyword: constant
+		
+		final variables: can not be reassigned
+		final methods
+		final class
+
+
+
+
+
+

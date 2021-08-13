@@ -4,7 +4,7 @@ public class Circle {
     //               5     20
     private double radius, diameter;
 
-    private static double PI = 3.14;
+    private static final double PI = 3.14;
 
     public double getRadius(){
         return radius;
