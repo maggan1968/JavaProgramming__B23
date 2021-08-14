@@ -41,7 +41,6 @@ Class & Object:
 		static block
 		static import
 
-
 Access modifiers:
 	public > protected > default > private
 
@@ -67,9 +66,4 @@ final keyword: constant
 		final variables: can not be reassigned
 		final methods
 		final class
-
-
-
-
-
 
