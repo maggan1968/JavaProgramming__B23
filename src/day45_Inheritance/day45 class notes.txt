@@ -34,6 +34,8 @@ OOP Inheritance: to build IS A relationshipt between classes (parent & child cla
 
 		child class (sub class): can inherit all the variables and methods from parent class (only the visible ones)
 
+								constrcutor can not be inherited
+
 		parent class (super class): can not inherit anthing from child class
 
 
@@ -59,8 +61,8 @@ Cat extends Animal:
 	
 	Actions:
 		meow()
-		
-Tiger
+		 
+Tiger extends Animal:
 	
 	Actions:
 		roar()
