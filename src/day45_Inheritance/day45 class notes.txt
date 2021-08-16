@@ -28,3 +28,102 @@ Person
 	setPersonInfo(name, age, gender)
 
 person1.setPersonInfo("John", 27, 'M');
+
+
+OOP Inheritance: to build IS A relationshipt between classes (parent & child classes)
+
+		child class (sub class): can inherit all the variables and methods from parent class (only the visible ones)
+
+		parent class (super class): can not inherit anthing from child class
+
+
+		advantages:
+			less memory
+			less codes
+			easy to maintain
+			improves the reusability
+
+
+
+Animal:
+	name, breed, gender, size, age, color
+	eat(), drink(), sleep(), toString()
+
+
+Dog extends Animal:
+	
+	Actions:	
+		bark()
+
+Cat extends Animal:
+	
+	Actions:
+		meow()
+		
+Tiger
+	
+	Actions:
+		roar()
+		
+
+
+
+
+
+
+
+
+
+Is A vs Has A:
+	
+	Has A:
+		class Engine{
+
+		}
+		
+		class Car{ // Car Has An Engine
+			Engine
+		}
+
+
+		class Tester{
+
+		}
+
+		class Scrumteam{  // Scrumteam Has A Tester
+			Tester
+		}
+
+
+	Is A:
+
+		class Animal{
+
+		}
+
+		class Dog extends Animal { // Dog Is An Animal
+
+		}
+
+
+		class Car{
+
+		}
+
+		class Toyota extends Car{ // Toyota Is A car
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
