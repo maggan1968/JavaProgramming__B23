@@ -6,5 +6,9 @@ public class Tiger extends Animal{
         setInfo(name, breed, gender, size, age, color);
     }
 
+    public void roar(){
+        System.out.println(name +" is raring");
+    }
+
 
 }
