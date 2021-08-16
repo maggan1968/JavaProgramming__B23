@@ -2,7 +2,7 @@
 Topics: OOP Inheritance Intro:
 				extends keyword
 				IS A vs HAS A Relation
-				super keyword
+				super keyword (super. & super() )
 
 Package name: day45_Inheritance
 
@@ -47,6 +47,20 @@ OOP Inheritance: to build IS A relationshipt between classes (parent & child cla
 			easy to maintain
 			improves the reusability
 
+
+this keyword: refers to the instances. current class
+	this. : calls instance variables & methods of current class
+	this(): calls constructor of current class
+
+
+super keyword: refers to the instances
+	super. : calls instance variables & methods of parent class class
+	super(): calls constructor of parent class
+
+	constructor calls in inheritance:
+		1. child class MUST call parent class' constructor
+		2. parent class' defult constructor is called by default in child class
+		3. if the parent class' constructor is not default, it must be called manually
 
 
 Animal:
