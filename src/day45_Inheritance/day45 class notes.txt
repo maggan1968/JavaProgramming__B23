@@ -16,7 +16,6 @@ Warmup task:
 
             Add a constructor that can set the fields
                 
-
             Extra methods:
                 area(), perimeter(), toString(), equals()    
 
@@ -63,35 +62,6 @@ super keyword: refers to the instances
 		3. if the parent class' constructor is not default, it must be called manually
 
 
-Animal:
-	name, breed, gender, size, age, color
-	eat(), drink(), sleep(), toString()
-
-
-Dog extends Animal:
-	
-	Actions:	
-		bark()
-
-Cat extends Animal:
-	
-	Actions:
-		meow()
-		 
-Tiger extends Animal:
-	
-	Actions:
-		roar()
-		
-
-
-
-
-
-
-
-
-
 Is A vs Has A:
 	
 	Has A:
@@ -131,6 +101,52 @@ Is A vs Has A:
 		class Toyota extends Car{ // Toyota Is A car
 
 		}
+
+
+
+
+Animal:
+	name, breed, gender, size, age, color
+	eat(), drink(), sleep(), toString()
+
+
+Dog extends Animal:
+	
+	Actions:	
+		bark()
+
+Cat extends Animal:
+	
+	Actions:
+		meow()
+		 
+Tiger extends Animal:
+	
+	Actions:
+		roar()
+		
+
+EmployeeTask:
+	Person:
+		name, gender, age
+
+		eat(), sleep(), drink()
+	
+	Employee extends Person:
+		name, gender, age, id, job title, salary
+
+		work(), attenMeeting()
+
+	Tester extends Employee:
+		name, gender, age, id, job title, salary
+
+		testing()
+
+	Developer extedns Employee:
+		name, gender, age, id, job title, salary
+
+		code(), fixBugs()
+
 
 
 
