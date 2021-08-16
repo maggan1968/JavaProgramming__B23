@@ -12,3 +12,8 @@ public class Tester extends Employee { // Tester Is An Employee, Tester Is A per
 
 
 }
+
+/*
+6 variables inherited from Employee
+7 methods inherited from employee
+ */
