@@ -1,6 +1,6 @@
 package day45_Inheritance.employeeTask;
 
-public class Employee extends Person{
+public class Employee extends Person{ // Employee Is A person
 
     public long id;
     public String jobTitle;
@@ -31,6 +31,8 @@ public class Employee extends Person{
                 ", age= " + age +
                 '}';
     }
+
+    // eat(), sleep(), drink()
 
 
 }
