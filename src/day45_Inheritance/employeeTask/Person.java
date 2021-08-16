@@ -1,6 +1,6 @@
 package day45_Inheritance.employeeTask;
 
-public class Person {
+public class Person  {
 
     public String name;
     public final char gender;
