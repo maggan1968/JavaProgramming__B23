@@ -31,6 +31,8 @@ person1.setPersonInfo("John", 27, 'M');
 
 
 OOP Inheritance: to build IS A relationshipt between classes (parent & child classes)
+				
+				easiest way to get rich ==> extends
 
 		child class (sub class): can inherit all the variables and methods from parent class (only the visible ones)
 
