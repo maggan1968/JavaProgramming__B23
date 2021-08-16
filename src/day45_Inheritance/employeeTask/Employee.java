@@ -21,6 +21,18 @@ public class Employee extends Person{
         System.out.println(name+" is in the meeting");
     }
 
+    public String toString() {
+        return "Employee{" +
+                "id= " + id +
+                ", jobTitle= '" + jobTitle + '\'' +
+                ", salary= $" + salary +
+                ", name= '" + name + '\'' +
+                ", gender= " + gender +
+                ", age= " + age +
+                '}';
+    }
+
+
 }
 /*
 Employee extends Person:
