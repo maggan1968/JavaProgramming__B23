@@ -1,10 +1,10 @@
 08/16/2021
-Topics: Inheritance Intro:
+Topics: OOP Inheritance Intro:
 				extends keyword
 				IS A vs HAS A Relation
 				super keyword
 
-Package name: day44_Inheritance
+Package name: day45_Inheritance
 
 Warmup task:
 	1. create a class named Square
@@ -19,3 +19,12 @@ Warmup task:
 
             Extra methods:
                 area(), perimeter(), toString(), equals()    
+
+
+
+Person
+	name, age, gender
+
+	setPersonInfo(name, age, gender)
+
+person1.setPersonInfo("John", 27, 'M');
