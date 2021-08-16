@@ -1,0 +1,21 @@
+08/16/2021
+Topics: Inheritance Intro:
+				extends keyword
+				IS A vs HAS A Relation
+				super keyword
+
+Package name: day44_Inheritance
+
+Warmup task:
+	1. create a class named Square
+            private variables:
+                side (double)
+
+            Encapsulate All the private fields
+                (side can not be set to negative)
+
+            Add a constructor that can set the fields
+                
+
+            Extra methods:
+                area(), perimeter(), toString(), equals()    
