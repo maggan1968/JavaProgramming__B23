@@ -28,12 +28,12 @@ public class Square {
     }
 
     public boolean equals(Square square){
-        return side == square.side;
+        return side == square.getSide();
     }
 
     public String toString() {
         return "Square{" +
-                "side= " + side +
+                "side= " + getSide() +
                 "area= " + area() +
                 "perimeter= " + perimeter() +
                 '}';
