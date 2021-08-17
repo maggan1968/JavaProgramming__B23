@@ -7,7 +7,14 @@ public class ShapeObjects {
         Circle circle = new Circle(3);
         System.out.println(circle.area());
         System.out.println(circle.perimeter());
+        System.out.println(circle);
 
+        System.out.println("-------------------------------------------");
+        Rectangle rectangle = new Rectangle(10, 20);
+        System.out.println(rectangle.area());
+        System.out.println(rectangle.perimeter());
+
+        System.out.println(rectangle);
 
 
     }

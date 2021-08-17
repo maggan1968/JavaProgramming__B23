@@ -39,4 +39,13 @@ public class Rectangle extends Shape {
     public double perimeter() {
         return (length+width) * 2;
     }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                 super.toString() +
+                '}';
+    }
 }

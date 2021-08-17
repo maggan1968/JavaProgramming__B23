@@ -43,5 +43,12 @@ public class Circle extends Shape { //Circle Is A shape
        return diameter * PI;
     }
 
-
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", diameter=" + diameter +
+                super.toString()+
+                '}';
+    }
 }
