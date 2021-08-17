@@ -65,6 +65,100 @@ Inheritance:
 		A child class can have one parent class
 
 
+come back at 11:20 am.  
+Constrcutors short quiz is due by 11:40 am
+
+
+Method overloading: multiple method having the same method name in same class
+					same emthod name, different parameters
+					return type can be same or different
+
+
+
+Method Overriding: giving different implementations to the method
+
+					MUST happen in the child class
+
+					return-type, method name, parameter MUST be same
+
+					access modifier need to be same ore more visible
+							public > protected > default
+
+					@Override annotation must be applicable
+
+					methods that we cannot override: private, static, final 
+
+					ONLY the instance methods (nor ptivate & not final) can be overriden
+
+
+
+final keyword: unchangable
+	
+	variables: cannot be reassigned
+	methods: the method cannot be overriden
+	class
+
+
+
+
+
+
+Car
+	start(): Insert the key, twist it to ignition
+
+Toyota
+		
+
+Honda
+		
+
+Audi:
+	start(): push "start" button
+
+
+Tesla:
+	start(): say "start"
+
+
+BMW:
+	start(): call mechanic
+
+
+
+
+Shape
+	name
+
+	area(): 0 
+	perimeter()
+
+
+Circle extends Shape
+		area(): r* r* PI
+
+Rectangle extends Shape
+		area(): l * w
+
+Square extends Shape
+		area(): s * s
+
+Triangle extends Shape
+		area(): h * b * 0.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
