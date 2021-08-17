@@ -28,5 +28,11 @@ public class Square extends Shape {
         return side * 4;
     }
 
-
+    @Override
+    public String toString() {
+        return "Square{" +
+                "side=" + side +
+                super.toString()+
+                '}';
+    }
 }
