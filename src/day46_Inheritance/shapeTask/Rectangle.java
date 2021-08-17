@@ -1,8 +1,14 @@
 package day46_Inheritance.shapeTask;
 
-public class Rectangle {
-
+public class Rectangle extends Shape {
+        //          10      20
     private double length, width;
+
+    public Rectangle(double length, double width) {
+        super("Rectangle");
+        setLength(length);
+        setWidth(width);
+    }
 
     public double getLength() {
         return length;
@@ -26,6 +32,11 @@ public class Rectangle {
         this.width = width;
     }
 
+    public double area() {
+        return length * width;
+    }
 
-
+    public double perimeter() {
+        return (length+width) * 2;
+    }
 }
