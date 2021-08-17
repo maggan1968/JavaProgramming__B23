@@ -1,0 +1,59 @@
+08/17/2021
+Topics: Inheritance Continue:
+				Method Overriding
+				Protected Access Modifier
+				Object class
+			
+package name: day46_Inheritance
+
+Warmup tasks:
+	carTask:
+		Create a class called Car
+			instance variables:
+				brand, model, year, price, color, miles
+
+				add a constructor to set all the fields
+
+			instance methods:
+				start(), drive(), toString()
+
+		Create the following sub classes of Car:
+			1. Toyota:
+			2. BMW:
+			3. Tesla:
+					extra methods:
+						autoPilot();
+
+
+	shapeTask
+		1. create a class called Shape
+						vairables: name, isShape(boolean), hasArea(boolean), hasPerimeter(boolean)
+
+						add a constructor that can set all the fields
+
+						methods: calcArea(), calcPerimeter(), 
+								 toString(): returns the name, area and perimeter that are returned by calcArea(), calcPerimeter()
+
+		2. create sub classes of Shape:
+						Circle
+						Rectangle
+						Square
+
+			 give the instance variables that are needed to calculate the Area, perimeter, of those shapes
+
+
+	AFTER TODAY'S TOPIC: Overriding
+		3. override super class' calculateArea(), calculatePerimeter() methods to the sub classes:
+
+		 		Area of the circle:    3.14 * radius * radius
+		 		Area of the rectangle:  width * length
+		 		Area of the square:    side * side
+
+		 		Perimeter of circle:   3.14 * 2 * radius
+		 		Perimeter of rectangle: (width + length) * 2
+		 		Perimeter of Square: 4 * side
+
+
+
+
+
