@@ -15,11 +15,16 @@ Warmup tasks:
 				add a constructor to set all the fields
 
 			instance methods:
-				start(), drive(), toString()
+				start(), drive(),toString()
 
 		Create the following sub classes of Car:
 			1. Toyota:
+					extra methods:
+							reliabile()
 			2. BMW:
+					extra methods:
+						breaksDown()
+						race()
 			3. Tesla:
 					extra methods:
 						autoPilot();
