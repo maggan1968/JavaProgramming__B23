@@ -60,5 +60,15 @@ Warmup tasks:
 
 
 
+Inheritance:
+		A parent class can have multiple child classes
+		A child class can have one parent class
+
+
+
+
+
+
+
 
 
