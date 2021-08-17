@@ -2,7 +2,7 @@ package day46_Inheritance.shapeTask;
 
 public class Shape {
 
-    public final String name;
+    private final String name;
     public final static boolean isShape, hasArea, hasPerimeter;
 
     static{
@@ -13,6 +13,10 @@ public class Shape {
 
     public Shape(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public double area(){
