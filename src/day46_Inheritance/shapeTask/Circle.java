@@ -1,6 +1,6 @@
 package day46_Inheritance.shapeTask;
 
-public class Circle extends Shape {
+public class Circle extends Shape { //Circle Is A shape
 
     private double radius, diameter;
     private final static double PI = 3.14;
@@ -35,11 +35,9 @@ public class Circle extends Shape {
         radius = diameter/2;
     }
 
-
-    public double area() {
-       return radius * radius * PI;
+    public double area(){
+        return radius * radius * PI;
     }
-
 
     public double perimeter() {
        return diameter * PI;

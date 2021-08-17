@@ -1,6 +1,5 @@
 package day04_Variables;
 
-
 import java.util.Scanner;
 
 public class Timer {

@@ -1,7 +1,6 @@
 08/17/2021
 Topics: Inheritance Continue:
 				Method Overriding
-				Protected Access Modifier
 				Object class
 			
 package name: day46_Inheritance
@@ -43,6 +42,10 @@ Warmup tasks:
 						Circle
 						Rectangle
 						Square
+						Triangle
+						Cube
+						Cylinder
+						....
 
 			 give the instance variables that are needed to calculate the Area, perimeter, of those shapes
 
@@ -106,21 +109,21 @@ final keyword: unchangable
 Car
 	start(): Insert the key, twist it to ignition
 
-Toyota
+Toyota extends Car
 		
 
-Honda
+Honda extends Car
 		
 
-Audi:
+Audi extends Car:
 	start(): push "start" button
 
 
-Tesla:
+Tesla extends Car:
 	start(): say "start"
 
 
-BMW:
+BMW extends Car:
 	start(): call mechanic
 
 
