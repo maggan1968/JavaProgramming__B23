@@ -16,6 +16,16 @@ public class ShapeObjects {
 
         System.out.println(rectangle);
 
+        System.out.println("--------------------------------------------");
+
+        Square square = new Square(5);
+        System.out.println(square.area());
+        System.out.println(square.perimeter());
+
+        System.out.println(square);
+
+
+
 
     }
 
