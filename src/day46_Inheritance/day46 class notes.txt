@@ -101,7 +101,7 @@ final keyword: unchangable
 	
 	variables: cannot be reassigned
 	methods: the method cannot be overriden
-	class
+	class: class cannot be have any child class (cant be inherited)
 
 
 
