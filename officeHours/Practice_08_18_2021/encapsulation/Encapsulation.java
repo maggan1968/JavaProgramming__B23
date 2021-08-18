@@ -8,7 +8,7 @@ public class Encapsulation {
 
    how can we cut the connection ?
         - Make it private
-  how can access these variables ?
+   how can access these variables ?
         - Getter and setter
 
 
@@ -26,7 +26,5 @@ public class Encapsulation {
 
 
 
-
-    -- Boiler Plate Lombok ?
      */
 }
