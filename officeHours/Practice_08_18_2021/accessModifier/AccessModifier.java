@@ -12,6 +12,7 @@ public class AccessModifier extends Person {
 
         NOTE :
             - We can use all of them for Variables, Constructor, Methods
+
             - A top level class can be two access modifiers : public and default
 
      */
