@@ -10,4 +10,9 @@ public class Nokia extends Phone {
         System.out.println(getBrand()+" "+getModel()+" is designed for self defense");
     }
 
+    public void breakTheFloor(){
+        System.out.println(getBrand()+" "+getModel()+" can break the floor");
+
+    }
+
 }
