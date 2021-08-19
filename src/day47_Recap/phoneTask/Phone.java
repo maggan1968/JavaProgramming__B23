@@ -1,6 +1,7 @@
 package day47_Recap.phoneTask;
 
 public class Phone {
+
     private final String brand;
     private final String model;
     private final String size;
@@ -19,8 +20,8 @@ public class Phone {
         this.brand = brand;
         this.model = model;
         this.size = size;
-        this.color = color;
-        this.price = price;
+        setColor(color);
+        setPrice(price);
     }
 
     public double getPrice(){
@@ -53,6 +54,26 @@ public class Phone {
     public void setColor(String color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
+    public void call(long phoneNumber){
+        System.out.println("Phone is calling "+phoneNumber);
+    }
+
+    public void text(long phoneNumber){
+        System.out.println("Phone is texting to "+phoneNumber);
+    }
+
 
 
 }
