@@ -29,5 +29,9 @@ public final class IPhone extends Phone {
         System.out.println("Apple's iphone is face timing with "+phoneNumber);
     }
 
+    public final void faceTime(long phone1, long phone2){
+        faceTime(phone1);
+        faceTime(phone2);
+    }
 
 }
