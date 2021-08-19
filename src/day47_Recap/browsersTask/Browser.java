@@ -1,6 +1,6 @@
 package day47_Recap.browsersTask;
 
-public class Browser {
+public class Browser  {
 
     public void open(){
         System.out.println("Opening Chrome Browser");

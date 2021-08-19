@@ -58,7 +58,7 @@ Warmup tasks
 
 
 
-final keyword: variable, methods
+final keyword: variable, methods, class
 
 
 

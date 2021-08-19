@@ -1,5 +1,6 @@
 package day46_Inheritance.shapeTask;
 
+
 public class Shape {
 
     private final String name;
