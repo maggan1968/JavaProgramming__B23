@@ -2,10 +2,10 @@ package utilities;
 
 public class Data2 {
 
-    public String s1 = "public";
-    protected String s2 = "protected";
-    String s3 = "default";
-    private String s4 = "private";
+    public String publicVariable = "public";
+    protected String protectedVariable = "protected";
+    String defaultVariable = "default";
+    private String privateVariable = "private";
 
 
     public void publicMethod(){
