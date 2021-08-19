@@ -33,8 +33,8 @@ Warmup tasks
 	Create the following custom classes:
 		1. Chrome
 				methods:
-					openBrowser(): prints "opening firefox browser"
-					closeBrowser(): prints "closing fire fox browser"
+					openBrowser(): prints "opening chrome browser"
+					closeBrowser(): prints "closing chrome browser"
 		
 		2. FireFox
 				methods:
