@@ -25,5 +25,9 @@ public class IPhone extends Phone {
         System.out.println("Apple' iphone is texting to "+phoneNumber);
     }
 
+    public void faceTime(long phoneNumber){
+        System.out.println("Apple's iphone is face timing with "+phoneNumber);
+    }
+
 
 }
