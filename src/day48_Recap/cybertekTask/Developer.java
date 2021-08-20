@@ -18,6 +18,11 @@ public final class Developer extends Employee {
     public void attendMeeting() {
         System.out.println(getJobTitle()+" "+getName()+" is attending grooming meeting");
     }
+
+    @Override
+    public void sleep() {
+        System.out.println(getName()+" sleeps 5 hours");
+    }
 }
 
 /*
