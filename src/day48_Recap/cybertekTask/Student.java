@@ -47,6 +47,15 @@ public class Student extends Person{
         System.out.println(getName()+" is attending class");
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                super.toString()+
+                "schoolName='" + schoolName + '\'' +
+                ", id=" + id +
+                '}';
+    }
+
 
 }
 
