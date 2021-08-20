@@ -10,12 +10,13 @@ public final class Teacher extends Employee {
 
     @Override
     public void work() {
-        System.out.println(getJobTitle()+" "+getName()+" is attend instructors meetings");
+        System.out.println(getJobTitle()+" "+getName()+" is teaching");
     }
 
     @Override
     public void attendMeeting() {
-        System.out.println();
+        System.out.println(getJobTitle()+" "+getName()+" is attend instructors meetings");
+
     }
 
 
