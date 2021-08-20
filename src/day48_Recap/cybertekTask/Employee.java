@@ -3,6 +3,17 @@ package day48_Recap.cybertekTask;
 import java.time.LocalDate;
 
 public class Employee extends Person{
+    /*
+    create the following sub classes:
+            ScrumMaster
+            ProductOwner
+            ProjectManager
+            BusinessAnalyst
+            Mentor
+
+     */
+
+
     private int employeeId;
     private String jobTitle;
     private double salary;
