@@ -50,6 +50,14 @@ public class Person {
     }
 
 
+    @Override
+    public String toString() {
+        return
+                "name='" + name + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", dOB=" + dOB;
+    }
 }
 
 /*
