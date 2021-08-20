@@ -3,6 +3,16 @@ package day48_Recap.cybertekTask;
 import java.time.LocalDate;
 
 public class Student extends Person{
+    /*
+    create sub classes:
+        GradStudent
+        UndergradStudent
+        CybertekStudent:
+            programmingLanguage
+            loveSoftKill
+            hatesJava
+
+     */
 
     private String schoolName;
     private int id;
@@ -27,6 +37,14 @@ public class Student extends Person{
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public void study(){
+        System.out.println(getName()+" is studying");
+    }
+
+    public void attendClass(){
+        System.out.println(getName()+" is attending class");
     }
 
 
