@@ -23,6 +23,7 @@ public final class Tester extends Employee {
      */
 
 
+
     public void work(){
         System.out.println(getJobTitle()+" "+getName()+" is testing ");
     }
@@ -32,8 +33,8 @@ public final class Tester extends Employee {
     }
 
     @Override
-    public void drink(String drink) {
-        System.out.println(getJobTitle()+" "+getName()+" is drinking "+drink);
+    public void drink(String beverage) {
+        System.out.println(getJobTitle()+" "+getName()+" is drinking "+beverage);
     }
 
 
