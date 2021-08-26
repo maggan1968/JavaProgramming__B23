@@ -1,5 +1,7 @@
 package day49_Exceptions;
 
+import java.util.Scanner;
+
 public class ExceptionHandlings {
 
     public static void main(String[] args) {
@@ -17,6 +19,36 @@ public class ExceptionHandlings {
         str += " Shcool";
 
         System.out.println(str);
+
+        System.out.println("------------------------------------------");
+
+        try {
+            System.out.println( 9/0 ); // Arithmetic exception
+        }catch (IllegalArgumentException e){
+          //  System.out.println( e.getMessage() );
+            e.printStackTrace();
+        } catch (IndexOutOfBoundsException e){
+          //  System.out.println( e.getMessage() );
+            e.printStackTrace();
+        } catch (ArithmeticException e){
+         //   System.out.println(e.getMessage());
+            e.printStackTrace();
+        } catch (RuntimeException e){
+          //  System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
+
+
+        System.out.println("Test completed");
+
+        System.out.println("---------------------------------------------------");
+
+
+        System.out.println( new Scanner(System.in).nextInt() );
+
+
+
+
 
 
     }
