@@ -47,6 +47,9 @@ Exception Handlings:
 		2. throws keyword: used for handling checked exceptions ONLY
 
 
+						caller of the method will be responsible for handling the exception
+
+
 
 
 
