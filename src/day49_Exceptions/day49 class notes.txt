@@ -1,8 +1,6 @@
 08/26/2021
-Topics: Exceptions
-		Exception handlings
-		throws vs throw keyword
-			 
+Topics: Exceptions & Exception handlings
+		
 Package name: day49_Exceptions
 
 
