@@ -1,6 +1,7 @@
 package day49_Exceptions;
 
-import java.util.Scanner;
+import day46_Inheritance.shapeTask.Circle;
+import java.util.InputMismatchException;
 
 public class ExceptionHandlings {
 
@@ -43,8 +44,33 @@ public class ExceptionHandlings {
 
         System.out.println("---------------------------------------------------");
 
+        try { // plan A
+            System.out.println("".substring(10, 20)); //"Cybertek"
+        }catch (ArithmeticException e){ // Plan B
+            e.printStackTrace();
+        }catch (NumberFormatException e){ // Plan C
+            e.printStackTrace();
+        }catch (IllegalArgumentException e){ // Plan D
+            e.printStackTrace();
+        }catch (InputMismatchException e){ // Plan E
+            e.printStackTrace();
+        }catch (RuntimeException e){
+            e.printStackTrace();
+        }
+        System.out.println("test completed");
 
-        System.out.println( new Scanner(System.in).nextInt() );
+        System.out.println("-----------------------------------------");
+
+        Circle circle1 = null;
+
+        try {
+            circle1.getRadius();
+        }catch(RuntimeException e){
+            e.printStackTrace();
+        }
+
+        System.out.println("Test completed");
+
 
 
 
