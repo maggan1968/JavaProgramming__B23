@@ -62,12 +62,13 @@ come back at 2:15pm
 Inheritance short quiz due by 2:40pm
 
 
+Custom exceptions:
+	1. how to create custom unchecked exception?
+			by inheriting RuntimeException class
 
-1. how to create custom unchecked exception?
-		by inheriting RuntimeException class
 
-
-2. how to create custom checked exception?
+	2. how to create custom checked exception?
+			by inheriting Exception class
 
 
 
