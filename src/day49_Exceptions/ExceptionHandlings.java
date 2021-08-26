@@ -65,9 +65,11 @@ public class ExceptionHandlings {
 
         try {
             circle1.getRadius();
-        }catch(RuntimeException e){
+
+        }catch (RuntimeException e){
             e.printStackTrace();
         }
+
 
         System.out.println("Test completed");
 
