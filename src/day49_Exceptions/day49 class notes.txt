@@ -52,6 +52,8 @@ Exception Handlings:
 
 
 throw keyword: manually throw an exception
+		
+		throw ObjectOfException
 
 
 
@@ -60,6 +62,12 @@ come back at 2:15pm
 Inheritance short quiz due by 2:40pm
 
 
+
+1. how to create custom unchecked exception?
+		by inheriting RuntimeException class
+
+
+2. how to create custom checked exception?
 
 
 

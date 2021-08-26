@@ -24,7 +24,10 @@ public class ThrowKeyword {
             throw new RuntimeException("Invalid Browser name: "+browser);
         }
 
+      //  throw new Circle(10);
 
+        //throw new BreakTimeException("Time to take 15 minutes break");
+        throw new BreakTimeException();
 
 
 
