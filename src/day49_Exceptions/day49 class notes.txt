@@ -4,3 +4,25 @@ Topics: Exceptions & Exception handlings
 Package name: day49_Exceptions
 
 
+Exception:
+	1. checked & unchecked exceptions
+	2. try & catch blocks
+	3. finally block
+	4. throws keyword
+	5. throw keyword
+	6. custom exception
+
+
+
+Exception: unexpected or unwanted events
+
+		unchecked exception (unexpected event): occures during the runtime
+
+					RuntimeException class is the parent of all the unchecked exception
+
+					All the runtime exceptions are unchecked exception
+
+
+		checked exception (unwanted event): occures during the compile time
+
+					All the exceptions that are not runtime execptions are checked exception
