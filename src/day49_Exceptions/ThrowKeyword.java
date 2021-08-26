@@ -26,8 +26,8 @@ public class ThrowKeyword {
 
       //  throw new Circle(10);
 
-        //throw new BreakTimeException("Time to take 15 minutes break");
-        throw new BreakTimeException();
+        throw new BreakTimeException("Time to take 15 minutes break");
+       // throw new BreakTimeException();
 
 
 
