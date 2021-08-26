@@ -51,7 +51,7 @@ Exception Handlings:
 
 
 
-throw keyword:
+throw keyword: manually throw an exception
 
 
 
