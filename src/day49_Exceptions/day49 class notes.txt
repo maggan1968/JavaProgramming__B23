@@ -41,6 +41,9 @@ Exception Handlings:
 				multi-catch block: parent exception type CAN NOT be placed before child exception type
 
 
+				finally block: always gets executed regardless of the exception
+
+
 
 
 
