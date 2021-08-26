@@ -41,7 +41,7 @@ public class Cybertek {
       //  student.attendMeeting();
         student.study();
         student.attendClass();
-        System.out.println(teacher);
+        System.out.println(student);
 
     }
 
