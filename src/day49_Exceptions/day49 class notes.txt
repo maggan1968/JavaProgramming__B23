@@ -10,7 +10,7 @@ Exception:
 	3. finally block
 	4. throws keyword
 	5. throw keyword
-	6. custom exception
+	6. custom exception 
 
 
 
@@ -51,6 +51,7 @@ Exception Handlings:
 
 
 
+throw keyword:
 
 
 
