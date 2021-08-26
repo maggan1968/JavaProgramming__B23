@@ -26,3 +26,37 @@ Exception: unexpected or unwanted events
 		checked exception (unwanted event): occures during the compile time
 
 					All the exceptions that are not runtime execptions are checked exception
+
+
+Exception Handlings:
+		
+		1. try & catch blocks: used for handling both chekced and unchecked exceptions
+
+				try{
+					exception code	
+				}catch(ExceptionClass e){
+					statements
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
