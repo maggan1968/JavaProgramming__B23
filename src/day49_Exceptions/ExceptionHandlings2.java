@@ -20,7 +20,7 @@ public class ExceptionHandlings2 {
         System.out.println("---------------------------------------------");
 
         try {
-            Thread.sleep(5000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -44,7 +44,15 @@ public class ExceptionHandlings2 {
 
         System.out.println("------------------------------------");
 
-
+        try {
+            System.out.println("Cybertek".charAt(-1));
+            System.out.println("Try block");
+        }catch (RuntimeException e){
+            System.out.println("Catch block");
+            System.exit(0);
+        }finally {
+            System.out.println("Finally block");
+        }
 
 
 

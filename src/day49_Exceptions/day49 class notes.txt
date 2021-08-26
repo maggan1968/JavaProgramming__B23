@@ -44,9 +44,16 @@ Exception Handlings:
 				finally block: always gets executed regardless of the exception
 
 
+		2. throws keyword: used for handling checked exceptions ONLY
 
 
 
+
+
+
+come back at 2:15pm
+
+Inheritance short quiz due by 2:40pm
 
 
 
