@@ -28,8 +28,8 @@ public class Rectangle {
     }
 
     public Rectangle(double length, double width) {
-        setWidth(width);
         setLength(length);
+        setWidth(width);
     }
 
     public double area() {
