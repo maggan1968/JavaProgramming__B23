@@ -1,5 +1,8 @@
 08/27/2021
-Java Recap: Exceptions
+Java Recap: Exceptions:
+				try & catch
+				throws
+				throw
 
 package name: day50_Exceptions
 
@@ -23,6 +26,16 @@ Warmup tasks:
 			area(): returns the area of the rectangle
 			perimeter(): returns the perimeter of the rectangle
 			toString()
+
+
+
+topics:
+	1. Abstraction
+	2. Polyrophism
+	4. Collection
+	5. Map
+	6. Functional Interface
+	7. Lambda Expression
 
 
 
