@@ -27,7 +27,27 @@ public class Rectangle {
         this.width = width;
     }
 
+    public Rectangle(double length, double width) {
+        setWidth(width);
+        setLength(length);
+    }
 
+    public double area() {
+        return length* width;
+    }
+
+
+    public double perimeter() {
+        return (length + width) * 2;
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                '}';
+    }
 
 
 }
