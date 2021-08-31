@@ -1,6 +1,6 @@
 package day51_Abstraction.shapeTask;
 
-public class Shape {
+public abstract class Shape {
 
     private final String name;
 
@@ -14,7 +14,7 @@ public class Shape {
 
     public abstract double area();
 
-
+    public abstract double perimeter();
 
 
 }
