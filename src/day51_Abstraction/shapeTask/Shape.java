@@ -3,6 +3,11 @@ package day51_Abstraction.shapeTask;
 public abstract class Shape {
 
     private final String name;
+    public static boolean isShape;
+
+    static{
+        isShape = true;
+    }
 
     public Shape(String name) {
         this.name = name;

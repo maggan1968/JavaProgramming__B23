@@ -87,7 +87,45 @@ Car
 		start(): jump start
 
 
+Employee
+	
+	Employee:
+		name, gender, jobTitle, salary, id
+		work();
 
+	Tester extends Employee
+
+
+	Developer extends Employee
+
+
+	SM extends Employee
+
+	Teacher extends Employee
+
+	PO extends Employee
+	
+
+
+
+
+
+WebDriver
+	get();
+
+RemoteDrive implements WebDriver, TakeScreenShot, JavaScriptExecuter
+
+ChromeDriver extends RemoteDrive
+
+FireFoxDriver extends RemoteDrive
+
+OperaDriver extends RemoteDrive
+
+...
+
+	driver = new ChromeDriver();
+
+	driver.get
 
 
 
