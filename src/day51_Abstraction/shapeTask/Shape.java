@@ -17,5 +17,13 @@ public abstract class Shape {
 
     public abstract double perimeter();
 
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "name= '" + name + '\'' +
+                ", area= " + area()  +
+                ", perimeter= " + perimeter()  +
+                '}';
+    }
 
 }
