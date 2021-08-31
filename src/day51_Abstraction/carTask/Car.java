@@ -1,6 +1,6 @@
 package day51_Abstraction.carTask;
 
-public class Car {
+public abstract class Car { // Car is meant to be the parent
 
     private final String make;
     private final String model;
@@ -46,6 +46,21 @@ public class Car {
         this.year = year;
         setPrice(price);
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                '}';
+    }
+
+
+    public abstract void start(); //meant to be overridden
+
 
 
 }
