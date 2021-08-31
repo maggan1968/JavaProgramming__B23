@@ -22,6 +22,10 @@ public class ParkingLot {
         tesla.start();
         bmw.start();
 
+        System.out.println("---------------------------------------------");
+
+        Car[] cars ={toyota, audi, bmw, tesla};
+        // WebDriver driver = new Chrome();
 
 
 
