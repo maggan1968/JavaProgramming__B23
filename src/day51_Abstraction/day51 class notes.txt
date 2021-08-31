@@ -2,7 +2,7 @@
 Topics: OOP Abstraction
 				Abstract method
 				Abstract class 
-				Interface
+				
 
 package name: day51_Abstraction
 
@@ -75,9 +75,13 @@ methods:
 
 
 Shape
-	
+	Interface Volume:
+			volume();
+
 	Abstract Shape:
 		area();
+		perimeter();
+
 
 	Circle extends Shape:
 		area(): r * r * PI
@@ -87,6 +91,10 @@ Shape
 
 	Square extends Shape:
 		area(): s * s
+
+	Cube extends Shape implements Volume
+
+	Cylinder extends Shape implements Volume
 
 
 Car
@@ -106,7 +114,7 @@ Car
 		start(): jump start
 
 
-Employee
+Employee: Encapsulation, Inheritance, Abstraction, overriding, class & object, constructors
 	
 	Employee:
 		name, gender, jobTitle, salary, id
