@@ -19,5 +19,10 @@ public class Tesla extends Car{
         System.out.println("------------------------------------");
     }
 
+    @Override
+    public void drive() {
+
+    }
+
 
 }

@@ -9,7 +9,14 @@ public abstract class Car  { // Car is meant to be the parent
     private final int year;
     private double price;
 
-    public String getMake() {
+    public static boolean hasWheels, hasEngine;
+
+    static{
+        hasWheels = true;
+        hasEngine = true;
+    }
+
+    public  String getMake() {
         return make;
     }
 
@@ -61,6 +68,9 @@ public abstract class Car  { // Car is meant to be the parent
 
 
     public abstract void start(); //meant to be overridden
+
+    public abstract void drive();
+
 
 
 
