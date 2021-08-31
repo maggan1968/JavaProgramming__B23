@@ -45,6 +45,22 @@ OOP Abstraction: hiding the the implementation and details of the method
 						can have everything the class can have + abstract methods
 
 
+		Abstract class vs Regular class: both are class
+										 can have variables, method, blocks.. etc
+
+					 difference:
+					 	 regular class: can have objects
+					 	 				cannot have abstract method
+					 	 				can be final
+
+
+					 	 abstract class: can not have objects
+					 	 				 can have abstract method
+					 	 				 can not be final
+
+
+
+
 
 
 methods:
