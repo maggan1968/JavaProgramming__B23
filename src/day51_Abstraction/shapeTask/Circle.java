@@ -10,12 +10,15 @@ public class Circle extends Shape{
     }
 
     public void setR(double r) {
+        if(r <= 0){
+            throw new RuntimeException("Invalid radius: "+r);
+        }
         this.r = r;
     }
 
     public Circle( double r) {
         super("Circle");
-        this.r = r;
+        setR(r);
     }
 
 
