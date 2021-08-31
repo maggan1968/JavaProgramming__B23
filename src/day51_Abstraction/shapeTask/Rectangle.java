@@ -1,6 +1,6 @@
 package day51_Abstraction.shapeTask;
 
-public class Rectangle {
+public class Rectangle extends Shape{
 
     private double l, w;
 
@@ -24,6 +24,23 @@ public class Rectangle {
             throw new RuntimeException("Invalid Width: "+w);
         }
         this.w = w;
+    }
+
+    public Rectangle(double l, double w) {
+        super("Rectangle");
+        setL(l);
+        setW(w);
+    }
+
+
+    @Override
+    public double area() {
+        return l * w;
+    }
+
+    @Override
+    public double perimeter() {
+        return (l+w)*2;
     }
 
 
