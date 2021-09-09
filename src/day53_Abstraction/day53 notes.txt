@@ -67,3 +67,33 @@ warmup task:
 Interface (not a class):
 
 		public is the only available AM
+variables are public static and final by default
+
+
+		what we can have in an interface:
+			variable: public static final by defult
+			methods: abstract method
+					 static method
+					 default method
+
+		what we cannot have:
+			instance variables
+			blocks
+			constructor
+			instance method
+
+extends vs implements
+
+	extends:
+			class  extends class    (extends one class only)
+			interface extends interfaces   (extends multiple interface)
+
+	implements:
+
+			class  implements  interfaces
+
+
+	extends & implements:
+			class extends class implments interfaces
+
+
