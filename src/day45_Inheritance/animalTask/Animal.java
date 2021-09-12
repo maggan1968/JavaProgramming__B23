@@ -43,7 +43,10 @@ public class Animal {
                 ", color='" + color + '\'' +
                 '}';
     }
-}
+
+
+    }
+
 /*
 Animal:
 	name, breed, gender, size, age, color

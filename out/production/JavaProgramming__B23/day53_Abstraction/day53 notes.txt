@@ -67,3 +67,65 @@ warmup task:
 Interface (not a class):
 
 		public is the only available AM
+variables are public static and final by default
+
+
+		what we can have in an interface:
+			variable: public static final by defult
+			methods: abstract method
+					 static method
+					 default method
+
+		what we cannot have:
+			instance variables
+			blocks
+			constructor
+			instance method
+
+extends vs implements
+
+	extends:
+			class  extends class    (extends one class only)
+			interface extends interfaces   (extends multiple interface)
+
+	implements:
+
+			class  implements  interfaces
+
+
+	extends & implements:
+			class extends class implments interfaces
+
+
+
+Abstract class vs Interface: both are used for achieving abstraction
+							 both meant to be inherited
+							 both can not craete objects
+							 both can not be final
+
+
+
+				 Abstract class: one class can only extends one abstract class
+				 			can have everything a regular class can
+
+				 			4 access modifiers
+
+				 interface: one class can implement multiple interfaces
+
+				 			one access modifier
+
+				 			variable: public static final by defult
+							methods: abstract method, static method, default method
+
+
+
+
+
+Polymorphism: "IS A relation" is a MUST
+		polymorphism
+		reference type vs object type
+		instance keyword
+		up & down casting
+
+
+

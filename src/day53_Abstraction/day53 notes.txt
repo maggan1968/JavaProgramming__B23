@@ -97,3 +97,56 @@ extends vs implements
 			class extends class implments interfaces
 
 
+
+Abstract class vs Interface: both are used for achieving abstraction
+							 both meant to be inherited
+							 both can not craete objects
+							 both can not be final
+
+
+
+				 Abstract class: one class can only extends one abstract class
+				 			can have everything a regular class can
+
+				 			4 access modifiers
+
+				 interface: one class can implement multiple interfaces
+
+				 			one access modifier
+
+				 			variable: public static final by defult
+							methods: abstract method, static method, default method
+
+
+
+
+
+Polymorphism: "IS A relation" is a MUST
+		polymorphism
+		reference type vs object type
+		instance keyword
+		up & down casting
+
+2 types of testings:
+
+	1. Primitive type casting
+
+			implicit: casting smaller type to larger type (done automatically)
+					int a =100;
+					double b = a;
+
+			explicit: casting larger type to smaller type (manually done)
+					double a =10.0;
+					int b = (int)a;
+
+
+	2. Referrence type casting. (There MUST be inheritance)
+
+			up casting: casting smaller type to larger type (done automatically)
+
+			down casting: casting larger type to smaller type (manually done)
+
+
+
+
+
