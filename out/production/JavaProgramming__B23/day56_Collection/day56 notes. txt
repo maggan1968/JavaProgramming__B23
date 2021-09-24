@@ -40,7 +40,16 @@ Collection framework: consists of multiple interfaces, each interface is implemb
 
 
 
-			Queue (I): does not have index, accept duplicates
+			Queue (I): does not have index, accept duplicates. FIFO (first in first out)
+
+				poll(): removes the first object from the queue, and returns it. FIFO
+
+				PriorityQueue (C): order is random. does not have index number
+
+				ArrayDequeue (C): keeps the same insertion order. does not have index number
+
+				LinkedList (C): keeps the same insertion order, has index number
+
 
 
 synchronized: used for achieving thread safety
@@ -75,7 +84,7 @@ concurrently vs paralely:
 				long time
 
 
-		Parallel: 300 * 5 = 1500 seconds
+		Paralely: 300 * 5 = 1500 seconds
 			chrome Browser (process1)
 				etsy.com (300 test cases)
 
@@ -84,3 +93,36 @@ concurrently vs paralely:
 
 			safari browser (process3)
 				ebay.com (300 test cases)
+
+
+
+
+Iterable: Root Interface of Collection
+		Classes that are implementing iterable interface gains the ability to use iterator interface
+
+		Iterator (I):
+			1. allows us to get access to each object
+
+			2. allows us to remove any objects from collection type
+
+
+			methods:
+				hasNext(): checks if there is object. returns boolean
+
+				next():
+						if hasNext() is true ==> can get access to the object
+						if hasNext() is false==> no object can be accessed
+
+
+				remove()
+
+Task:
+	Given:
+		List<String> names = new ArrayList<>();
+        names.addAll(Arrays.asList(
+            "Ahmed", "ahmed", "aHmEd", "John", "Ercon", "Daniel", "Mustafa", "Mohammed"
+        ));
+
+        remove all the names "ahmed" without using removeIf
+
+
